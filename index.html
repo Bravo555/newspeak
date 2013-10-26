@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Newspeak Ipsum</title>
+	<link rel="stylesheet" href="css/newspeak.css">
+<link href='http://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700&effect=destruction' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div id="topbar"><h1>NEWSPEAK IPSUM</h1>
+<h2>A Dystopian Lorem Ipsum Generator</h1>
+<div id="eye"><img src="eye.svg" alt="Eye designed by Ayesha Rana from The Noun Project"></div>
+</div>
+	<p>Which dystopian future dialect do you speak?</p><br>
+<form id="ipsum-form" action="#" method="post">
+			
+
+						<!-- default choice on load -->
+						<input id="default" type="radio" name="choice" value="default" style="display:none" />
+						<!-- newspeak -->
+						<input id="newspeak" type="radio" name="choice" value="newspeak" checked />
+						<label for="newspeak">Newspeak (1984)</label><br> 
+						<!-- Maddaddam -->
+						<input id="maddaddam" type="radio" name="choice" value="maddaddam" />
+						<label for="maddaddam">Maddaddam</label> <br>
+						<!-- Anathem -->
+						<input id="anathem" type="radio" name="choice" value="anathem" />
+						<label for="anathem">Orth and Fluccish (Anathem)</label><br>
+    <input id="nadsat" type="radio" name="choice" value="nadsat" />
+						<label for="nadsat">Nadsat (A Clockwork Orange)</label><br>
+     <input id="everything" type="radio" name="choice" value="everything" />
+						<label for="everything">Everything</label><br>
+	
+    Paragraphs: <input id="paragraph_count" style="width: 25px;" type="text" maxLength="1" />
+    <input type="submit" id="submit" value="Submit"/>
+</form>
+
+<div id="generated-newspeak"></div>
+
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+	<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/newspeak.js"></script>
+
+</body>
+</html>
